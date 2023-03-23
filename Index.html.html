@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>GST Calculator</title>
+	<script type="text/javascript">
+		function calculateGST() {
+			var amount = parseFloat(document.getElementById("amount").value);
+			var gstPercentage = parseFloat(document.getElementById("gstPercentage").value);
+			var gstAmount = amount * (gstPercentage / 100);
+			document.getElementById("gstAmount").value = gstAmount.toFixed(2);
+		}
+	</script>
+</head>
+<body>
+
+<script type="text/javascript">
+	atOptions = {
+		'key' : '547c6b5dcc736b9f35ba0372a3c0cfea',
+		'format' : 'iframe',
+		'height' : 250,
+		'width' : 300,
+		'params' : {}
+	};
+	document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.profitabledisplaynetwork.com/547c6b5dcc736b9f35ba0372a3c0cfea/invoke.js"></scr' + 'ipt>');
+</script>
+	<h1>GST Calculator</h1>
+	<label for="amount">Amount:</label>
+	<input type="text" id="amount"><br>
+	<label for="gstPercentage">GST Percentage:</label>
+	<select id="gstPercentage">
+		<option value="5">5%</option>
+		<option value="12">12%</option>
+		<option value="18">18%</option>
+		<option value="28">28%</option>
+	</select><br>
+	<label for="gstAmount">GST Amount:</label>
+	<input type="text" id="gstAmount" readonly><br>
+	<button onclick="calculateGST()">Calculate</button>
+	<button onclick="document.getElementById('amount').value=''; document.getElementById('gstAmount').value=''; document.getElementById('gstPercentage').value='5'">Clear</button>
+
+<script type="text/javascript">
+	atOptions = {
+		'key' : '547c6b5dcc736b9f35ba0372a3c0cfea',
+		'format' : 'iframe',
+		'height' : 250,
+		'width' : 300,
+		'params' : {}
+	};
+	document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.profitabledisplaynetwork.com/547c6b5dcc736b9f35ba0372a3c0cfea/invoke.js"></scr' + 'ipt>');
+</script>
+
+<script type='text/javascript' src='//pl18840599.highrevenuegate.com/f6/31/e5/f631e53bfe9dcbbaa5622937dd354bdd.js'></script>
+
+</body>
+</html>
